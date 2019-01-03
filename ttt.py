@@ -41,6 +41,7 @@ while (t == True):
 
   if (counter == 9):
     print ("Its a Tie!")
+    break
 
   print ("Player",player)
   spot = int(input("Select a spot: "))
